@@ -1,0 +1,50 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #6dd5fa, #2980b9);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  border-radius: 20px;
+  width: 320px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#searchBox {
+  width: 90%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+#movieList {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#movieList li {
+  background: rgba(165, 164, 165, 0.2);
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+#movieList li:hover {
+  background: rgba(143, 142, 142, 0.4);
+}
